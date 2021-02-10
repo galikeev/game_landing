@@ -1,0 +1,38 @@
+.menu {
+    min-height: 145px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    &__logo {
+        img {
+            width: 55px;
+            height: 55px;
+        }
+    }
+    &__list {
+        display: flex;
+        list-style-type: none;
+        padding-top: 16px;
+    }
+    &__item {
+        padding-right: 35px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__lang {
+        padding-right: 20px;
+    }
+    .divider {
+        width: 1px;
+        height: 30px;
+        border: 0.873968px solid #FFFFFF;
+        opacity: 0.5;
+    }
+    &__icons {
+        padding-left: 20px;
+    }
+}

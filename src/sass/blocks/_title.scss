@@ -1,0 +1,34 @@
+.title {
+    &_fz80 {
+        font-family: Bebas Neue;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 80px;
+        line-height: 80px;
+        text-align: center;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    &_fz24 {
+        font-family: Bebas Neue;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+    }
+    &_fz12 {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 16px;
+        text-align: right;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+}
