@@ -1,0 +1,27 @@
+.require {
+    padding-top: 145px;
+    background: radial-gradient(33.26% 45% at 64.32% 47.1%, rgba(255, 255, 255, 0) 3.36%, rgba(0, 0, 0, 0) 19.22%, #080A0B 99.74%), url(../img/bg_image_4.jpg)  center (center / cover) no-repeat;
+    &__wrapper {
+        padding-top: 135px;
+        padding-bottom: 170px;
+        display: grid;
+        grid-template-columns: 275px 300px;
+        grid-template-rows: repeat(2, minmax(125px, auto)) 150px;
+        grid-auto-rows: minmax(270px, auto);
+        gap: 1px;
+    }
+    &__item {
+        box-shadow: 0px 0px 0px 1px #979797;
+        padding: 20px 15px 20px 15px;
+        &-title {
+            text-align: left;
+            color: $main-color;
+        }
+        &-descr {
+            margin-top: 7px;
+        }
+    }
+    .horizontal {
+        grid-column: 1/3;
+    }
+}

@@ -8,7 +8,7 @@
         text-align: center;
         letter-spacing: 3px;
         text-transform: uppercase;
-        color: #FFFFFF;
+        color: $second-color;
     }
     &_fz24 {
         font-family: Bebas Neue;
@@ -18,7 +18,15 @@
         line-height: 24px;
         text-align: center;
         letter-spacing: 2px;
-        color: #FFFFFF;
+        color: $second-color;
+    }
+    &_fz18 {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        color: $second-color;
     }
     &_fz12 {
         font-family: Open Sans;
@@ -29,6 +37,6 @@
         text-align: right;
         letter-spacing: 0.1em;
         text-transform: uppercase;
-        color: #FFFFFF;
+        color: $second-color;
     }
 }

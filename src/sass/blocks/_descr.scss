@@ -1,0 +1,43 @@
+.descr {
+    padding-top: 50px;
+    padding-bottom: 240px;
+    background: radial-gradient(136.03% 54.57% at 50% 48.04%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 60.63%, #080A0B 99.74%), url(../img/bg_image_2.jpg) center (center / cover) no-repeat;
+    &__wrapper {
+        display: flex;
+    }
+    &__title {
+        text-align: left;
+        padding-right: 170px;
+    }
+    &__divider {
+        width: 711px;
+        height: 3px;
+        background: #FFFFFF;
+        border-radius: 4px;
+    }
+    &__text {
+        padding-top: 60px;
+        margin-left: 230px;
+        width: 365px;
+        b {
+            font-family: Open Sans;
+        }
+    }
+    &__slider {
+        width: 500px;
+        margin: 0 auto;
+        div {
+            &:nth-child(2) {
+                display: none;
+            }
+            &:nth-child(3) {
+                display:none;
+            }
+        }
+        img {
+            display: block;
+            width: 100%;
+            border-radius: 5px;
+        }
+    }
+}

@@ -1,3 +1,31 @@
 .promo {
     padding-top: 170px;
+    padding-bottom: 50px;
+    &__btn {
+        span {
+            margin: 0 14px 0 11px;
+            opacity: 0.5;
+            border: 0.873968px solid #1A1917;
+            transform: matrix(1, 0, 0.04, 1, 0, 0);
+        }
+    }
+    &__scroll {
+        padding-top: 365px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__link {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 70px;
+        text-decoration: none;
+        font-family: Open Sans;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 22px;
+        text-transform: uppercase;
+        color: $second-color;
+    }
 }

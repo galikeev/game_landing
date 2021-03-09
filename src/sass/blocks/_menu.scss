@@ -9,6 +9,12 @@
             width: 55px;
             height: 55px;
         }
+        &_big {
+            img {
+                width: 90px;
+                height: 90px;
+            }
+        }
     }
     &__list {
         display: flex;
@@ -26,13 +32,16 @@
     &__lang {
         padding-right: 20px;
     }
-    .divider {
+    &__divider {
         width: 1px;
         height: 30px;
-        border: 0.873968px solid #FFFFFF;
+        border: 0.873968px solid $second-color;
         opacity: 0.5;
     }
     &__icons {
         padding-left: 20px;
+        &:hover {
+            text-decoration: none;
+        }
     }
 }
