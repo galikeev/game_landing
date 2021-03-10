@@ -48,6 +48,14 @@
         &-user {
             margin-left: 22px;
         }
+        &-icon {
+            svg path {
+                &:hover {
+                    fill: #4dc6ff;
+                    transition: all 0.5s;
+                }
+            }
+        }
         &-name {
             color: $main-color;
         }

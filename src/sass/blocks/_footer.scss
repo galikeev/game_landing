@@ -72,4 +72,39 @@
             }
         }
     }
+    &__divider {
+        margin-top: 30px;
+        width: 1140px;
+        height: 1px;
+        opacity: 0.5;
+        border: 0.873968px solid #FFFFFF;
+    }
+    &__reserved {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__rights {
+        margin-top: 20px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 19px;
+        color: #FFFFFF;
+        opacity: 0.5;
+    }
+    &__privacy {
+        margin-top: 20px;
+        display: flex;
+        div a {
+            margin-left: 2px;
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 16px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+    }
 }
